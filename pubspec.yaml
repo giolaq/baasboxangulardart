@@ -1,0 +1,8 @@
+name: baasboxAngularDart
+description: AngularDart and BaasBox DartSDK
+dependencies:
+  angular: any
+  baasbox: any
+  browser: any
+transformers:
+- angular

@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="baasboxangulardart.css">
+  </head>
+  <body>
+    <h2>Users</h2>
+    <div user-list ng-cloak>
+        <ul class="unstyled">
+            <li ng-repeat="user in UserCtrl.users">
+                <input type="checkbox">
+                <span>{{user.username}}</span>
+            </li>
+        </ul>
+        
+    </div>
+    <script type="application/dart" src="baasboxangulardart.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
